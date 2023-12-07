@@ -1,0 +1,82 @@
+Build ready to start ▶️
+>> Cloning github.com/Aman3504u/Aman.git commit sha 5feb1aa0c15198547832f6ae9051c8a289438f53 into /workspace
+Initialized empty Git repository in /workspace/.git/
+From https://github.com/Aman3504u/Aman
+ * branch            5feb1aa0c15198547832f6ae9051c8a289438f53 -> FETCH_HEAD
+HEAD is now at 5feb1aa latest code
+Previous image with name "registry01.prod.koyeb.com/k-c365c093-ce5f-466b-902e-73b54a5bf51f/a0f68271-3be6-45f1-ba6b-3fdacc62d55f:latest" not found
+heroku/nodejs-engine 1.1.4
+heroku/nodejs-npm    1.1.4
+heroku/procfile      2.0.0
+Layer cache not found
+[0m[1m[35m
+[Heroku Node.js Engine Buildpack]
+[0m[0m[1m[35m
+[Checking Node.js version]
+[0mDetected Node.js version range: *
+Resolved Node.js version: 20.5.1
+[0m[1m[35m
+[Installing Node.js distribution]
+[0mDownloading Node.js 20.5.1
+Extracting Node.js 20.5.1
+Installing Node.js 20.5.1
+[INFO] Installing toolbox
+[INFO] - yj
+[INFO] Using npm v9.8.0 from Node
+[INFO] Installing node modules
+npm WARN config production Use `--omit=dev` instead.
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated abab@1.0.4: Use your platform's native atob() and btoa() methods instead
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+npm WARN deprecated domexception@4.0.0: Use your platform's native DOMException instead
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+added 777 packages, and audited 778 packages in 2m
+
+89 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (21 moderate, 7 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+npm notice 
+npm notice New major version of npm available! 9.8.0 -> 10.2.5
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+npm notice Run `npm install -g npm@10.2.5` to update!
+npm notice 
+
+[1;33m[Warning: Skip pruning because NODE_ENV is not 'production'.][0m
+
+[0m[1m[35m
+[Discovering process types]
+[0mProcfile declares types -> web
+Adding layer 'heroku/nodejs-engine:dist'
+Adding layer 'heroku/nodejs-engine:web_env'
+Adding layer 'launch.sbom'
+Adding 1/1 app layer(s)
+Adding layer 'launcher'
+Adding layer 'config'
+Adding layer 'process-types'
+Adding label 'io.buildpacks.lifecycle.metadata'
+Adding label 'io.buildpacks.build.metadata'
+Adding label 'io.buildpacks.project.metadata'
+Setting default process type 'web'
+Saving registry01.prod.koyeb.com/k-c365c093-ce5f-466b-902e-73b54a5bf51f/a0f68271-3be6-45f1-ba6b-3fdacc62d55f:latest...
+*** Images (sha256:8bec0c154a26f69a180f017956ed1ea041f57fea7560a2a16d3c883a29db5b3b):
+      registry01.prod.koyeb.com/k-c365c093-ce5f-466b-902e-73b54a5bf51f/a0f68271-3be6-45f1-ba6b-3fdacc62d55f:latest
+      registry01.prod.koyeb.com/k-c365c093-ce5f-466b-902e-73b54a5bf51f/a0f68271-3be6-45f1-ba6b-3fdacc62d55f:abedd805-38cb-46a1-b7f0-695b959d4928
+Layer cache not found
+Adding cache layer 'heroku/nodejs-engine:dist'
+Adding cache layer 'heroku/nodejs-npm:toolbox'
+Build succeeded ✅
